@@ -15,4 +15,4 @@ there's two projects - for win and linux. It works on linux for shure and i don'
  - You have to install opencv first
  - Open visual studio proj in ./cutter folder
 
-* It use to work with bgimg.jpg as background but i don't remember how exactly
+\* It use to work with bgimg.jpg as background but i don't remember how exactly
