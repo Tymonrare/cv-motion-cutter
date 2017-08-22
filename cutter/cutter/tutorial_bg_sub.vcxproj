@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{A9F32592-C820-3478-B5A1-9487C459F4A9}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>bg_sub</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./Debug</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cpp-tutorial-bg_sub</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">G:\Sources\libs\opencv\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tutorial_bg_sub.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cpp-tutorial-bg_sub</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;$(cvinstallpath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>G:\Sources\libs\opencv\modules\calib3d\include;G:\Sources\libs\opencv\modules\features2d\include;G:\Sources\libs\opencv\modules\highgui\include;G:\Sources\libs\opencv\modules\videoio\include;G:\Sources\libs\opencv\modules\imgcodecs\include;G:\Sources\libs\opencv\modules\video\include;G:\Sources\libs\opencv\modules\photo\include;G:\Sources\libs\opencv\modules\ml\include;G:\Sources\libs\opencv\modules\imgproc\include;G:\Sources\libs\opencv\modules\flann\include;G:\Sources\libs\opencv\modules\core\include;G:\Sources\libs\opencv\modules\objdetect\include;G:\Sources\libs\opencv\modules\videostab\include;G:\Sources\libs\opencv\modules\superres\include;G:\Sources\libs\opencv\modules\stitching\include;G:\Sources\libs\opencv\modules\shape\include;G:\Sources\libs\opencv\include;G:\Sources\libs\opencv\3rdparty\ippicv\unpack\ippicv_win\include;G:\Sources\libs\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4324;4275;4589</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;_VARIADIC_MAX=10;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;_VARIADIC_MAX=10;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Sources\libs\opencv\modules\calib3d\include;G:\Sources\libs\opencv\modules\features2d\include;G:\Sources\libs\opencv\modules\highgui\include;G:\Sources\libs\opencv\modules\videoio\include;G:\Sources\libs\opencv\modules\imgcodecs\include;G:\Sources\libs\opencv\modules\video\include;G:\Sources\libs\opencv\modules\photo\include;G:\Sources\libs\opencv\modules\ml\include;G:\Sources\libs\opencv\modules\imgproc\include;G:\Sources\libs\opencv\modules\flann\include;G:\Sources\libs\opencv\modules\core\include;G:\Sources\libs\opencv\modules\objdetect\include;G:\Sources\libs\opencv\modules\videostab\include;G:\Sources\libs\opencv\modules\superres\include;G:\Sources\libs\opencv\modules\stitching\include;G:\Sources\libs\opencv\modules\shape\include;G:\Sources\libs\opencv\include;G:\Sources\libs\opencv\3rdparty\ippicv\unpack\ippicv_win\include;G:\Sources\libs\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Sources\libs\opencv\modules\calib3d\include;G:\Sources\libs\opencv\modules\features2d\include;G:\Sources\libs\opencv\modules\highgui\include;G:\Sources\libs\opencv\modules\videoio\include;G:\Sources\libs\opencv\modules\imgcodecs\include;G:\Sources\libs\opencv\modules\video\include;G:\Sources\libs\opencv\modules\photo\include;G:\Sources\libs\opencv\modules\ml\include;G:\Sources\libs\opencv\modules\imgproc\include;G:\Sources\libs\opencv\modules\flann\include;G:\Sources\libs\opencv\modules\core\include;G:\Sources\libs\opencv\modules\objdetect\include;G:\Sources\libs\opencv\modules\videostab\include;G:\Sources\libs\opencv\modules\superres\include;G:\Sources\libs\opencv\modules\stitching\include;G:\Sources\libs\opencv\modules\shape\include;G:\Sources\libs\opencv\include;G:\Sources\libs\opencv\3rdparty\ippicv\unpack\ippicv_win\include;G:\Sources\libs\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;G:\Sources\libs\opencv\3rdparty\ippicv\unpack\ippicv_win\lib\ia32\ippicvmt.lib;G:\Sources\libs\opencv\build\lib\Debug\opencv_shape310d.lib;G:\Sources\libs\opencv\build\lib\Debug\opencv_stitching310d.lib;G:\Sources\libs\opencv\build\lib\Debug\opencv_superres310d.lib;G:\Sources\libs\opencv\build\lib\Debug\opencv_videostab310d.lib;G:\Sources\libs\opencv\build\lib\Debug\opencv_objdetect310d.lib;G:\Sources\libs\opencv\build\lib\Debug\opencv_photo310d.lib;G:\Sources\libs\opencv\build\lib\Debug\opencv_calib3d310d.lib;G:\Sources\libs\opencv\build\lib\Debug\opencv_features2d310d.lib;G:\Sources\libs\opencv\build\lib\Debug\opencv_flann310d.lib;G:\Sources\libs\opencv\build\lib\Debug\opencv_highgui310d.lib;G:\Sources\libs\opencv\build\lib\Debug\opencv_ml310d.lib;G:\Sources\libs\opencv\build\lib\Debug\opencv_videoio310d.lib;G:\Sources\libs\opencv\build\lib\Debug\opencv_imgcodecs310d.lib;G:\Sources\libs\opencv\build\lib\Debug\opencv_video310d.lib;G:\Sources\libs\opencv\build\lib\Debug\opencv_imgproc310d.lib;G:\Sources\libs\opencv\build\lib\Debug\opencv_core310d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/Sources/libs/opencv/build/bin/Debug/cpp-tutorial-bg_sub.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Sources/libs/opencv/build/bin/Debug/cpp-tutorial-bg_sub.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>G:\Sources\libs\opencv\modules\calib3d\include;G:\Sources\libs\opencv\modules\features2d\include;G:\Sources\libs\opencv\modules\highgui\include;G:\Sources\libs\opencv\modules\videoio\include;G:\Sources\libs\opencv\modules\imgcodecs\include;G:\Sources\libs\opencv\modules\video\include;G:\Sources\libs\opencv\modules\photo\include;G:\Sources\libs\opencv\modules\ml\include;G:\Sources\libs\opencv\modules\imgproc\include;G:\Sources\libs\opencv\modules\flann\include;G:\Sources\libs\opencv\modules\core\include;G:\Sources\libs\opencv\modules\objdetect\include;G:\Sources\libs\opencv\modules\videostab\include;G:\Sources\libs\opencv\modules\superres\include;G:\Sources\libs\opencv\modules\stitching\include;G:\Sources\libs\opencv\modules\shape\include;G:\Sources\libs\opencv\include;G:\Sources\libs\opencv\3rdparty\ippicv\unpack\ippicv_win\include;G:\Sources\libs\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4324;4275;4589</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Sources\libs\opencv\modules\calib3d\include;G:\Sources\libs\opencv\modules\features2d\include;G:\Sources\libs\opencv\modules\highgui\include;G:\Sources\libs\opencv\modules\videoio\include;G:\Sources\libs\opencv\modules\imgcodecs\include;G:\Sources\libs\opencv\modules\video\include;G:\Sources\libs\opencv\modules\photo\include;G:\Sources\libs\opencv\modules\ml\include;G:\Sources\libs\opencv\modules\imgproc\include;G:\Sources\libs\opencv\modules\flann\include;G:\Sources\libs\opencv\modules\core\include;G:\Sources\libs\opencv\modules\objdetect\include;G:\Sources\libs\opencv\modules\videostab\include;G:\Sources\libs\opencv\modules\superres\include;G:\Sources\libs\opencv\modules\stitching\include;G:\Sources\libs\opencv\modules\shape\include;G:\Sources\libs\opencv\include;G:\Sources\libs\opencv\3rdparty\ippicv\unpack\ippicv_win\include;G:\Sources\libs\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Sources\libs\opencv\modules\calib3d\include;G:\Sources\libs\opencv\modules\features2d\include;G:\Sources\libs\opencv\modules\highgui\include;G:\Sources\libs\opencv\modules\videoio\include;G:\Sources\libs\opencv\modules\imgcodecs\include;G:\Sources\libs\opencv\modules\video\include;G:\Sources\libs\opencv\modules\photo\include;G:\Sources\libs\opencv\modules\ml\include;G:\Sources\libs\opencv\modules\imgproc\include;G:\Sources\libs\opencv\modules\flann\include;G:\Sources\libs\opencv\modules\core\include;G:\Sources\libs\opencv\modules\objdetect\include;G:\Sources\libs\opencv\modules\videostab\include;G:\Sources\libs\opencv\modules\superres\include;G:\Sources\libs\opencv\modules\stitching\include;G:\Sources\libs\opencv\modules\shape\include;G:\Sources\libs\opencv\include;G:\Sources\libs\opencv\3rdparty\ippicv\unpack\ippicv_win\include;G:\Sources\libs\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;G:\Sources\libs\opencv\3rdparty\ippicv\unpack\ippicv_win\lib\ia32\ippicvmt.lib;..\..\lib\Release\opencv_shape310.lib;..\..\lib\Release\opencv_stitching310.lib;..\..\lib\Release\opencv_superres310.lib;..\..\lib\Release\opencv_videostab310.lib;..\..\lib\Release\opencv_objdetect310.lib;..\..\lib\Release\opencv_photo310.lib;..\..\lib\Release\opencv_calib3d310.lib;..\..\lib\Release\opencv_features2d310.lib;..\..\lib\Release\opencv_flann310.lib;..\..\lib\Release\opencv_highgui310.lib;..\..\lib\Release\opencv_ml310.lib;..\..\lib\Release\opencv_videoio310.lib;..\..\lib\Release\opencv_imgcodecs310.lib;..\..\lib\Release\opencv_video310.lib;..\..\lib\Release\opencv_imgproc310.lib;..\..\lib\Release\opencv_core310.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/Sources/libs/opencv/build/bin/Release/cpp-tutorial-bg_sub.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Sources/libs/opencv/build/bin/Release/cpp-tutorial-bg_sub.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:/Sources/libs/opencv/build/ZERO_CHECK.vcxproj">
+      <Project>C2D87574-8FD7-3FFA-89F0-B23302BC0C35</Project>
+    </ProjectReference>
+    <ProjectReference Include="G:/Sources/libs/opencv/build/modules/calib3d/opencv_calib3d.vcxproj">
+      <Project>2CCC5B52-B19C-3562-B1D5-09EBC70459D6</Project>
+    </ProjectReference>
+    <ProjectReference Include="G:/Sources/libs/opencv/build/modules/core/opencv_core.vcxproj">
+      <Project>1CF2432B-7B19-32DA-8B6B-02F0EFC24B83</Project>
+    </ProjectReference>
+    <ProjectReference Include="G:/Sources/libs/opencv/build/modules/features2d/opencv_features2d.vcxproj">
+      <Project>6E386BE2-ED29-39F0-A744-E17A9CB7B2EA</Project>
+    </ProjectReference>
+    <ProjectReference Include="G:/Sources/libs/opencv/build/modules/flann/opencv_flann.vcxproj">
+      <Project>45711A9B-5752-3B55-BB1D-8C5D17CE06E2</Project>
+    </ProjectReference>
+    <ProjectReference Include="G:/Sources/libs/opencv/build/modules/highgui/opencv_highgui.vcxproj">
+      <Project>60965FE7-9C7A-36BE-8BBF-7E6C0114FD54</Project>
+    </ProjectReference>
+    <ProjectReference Include="G:/Sources/libs/opencv/build/modules/imgcodecs/opencv_imgcodecs.vcxproj">
+      <Project>20021D34-473E-39FD-824B-E8428B743124</Project>
+    </ProjectReference>
+    <ProjectReference Include="G:/Sources/libs/opencv/build/modules/imgproc/opencv_imgproc.vcxproj">
+      <Project>C6846A21-A016-3C3F-908B-48256A8B35D0</Project>
+    </ProjectReference>
+    <ProjectReference Include="G:/Sources/libs/opencv/build/modules/ml/opencv_ml.vcxproj">
+      <Project>9EBA3084-B90A-3F91-A32D-3C4E0D348CDB</Project>
+    </ProjectReference>
+    <ProjectReference Include="G:/Sources/libs/opencv/build/modules/objdetect/opencv_objdetect.vcxproj">
+      <Project>AB655581-F633-3C81-9257-AFA90A21A484</Project>
+    </ProjectReference>
+    <ProjectReference Include="G:/Sources/libs/opencv/build/modules/photo/opencv_photo.vcxproj">
+      <Project>0CF10BF8-86CC-3783-8E5B-4BF4E927EBCA</Project>
+    </ProjectReference>
+    <ProjectReference Include="G:/Sources/libs/opencv/build/modules/shape/opencv_shape.vcxproj">
+      <Project>5BE6031C-E06E-319F-AB18-0B07A3535C39</Project>
+    </ProjectReference>
+    <ProjectReference Include="G:/Sources/libs/opencv/build/modules/stitching/opencv_stitching.vcxproj">
+      <Project>EE9697DD-0DD9-3426-A7AB-4213249640B9</Project>
+    </ProjectReference>
+    <ProjectReference Include="G:/Sources/libs/opencv/build/modules/superres/opencv_superres.vcxproj">
+      <Project>F8156CF5-5D04-3328-81DC-8324C2EB9B9A</Project>
+    </ProjectReference>
+    <ProjectReference Include="G:/Sources/libs/opencv/build/modules/video/opencv_video.vcxproj">
+      <Project>1BC8D219-36C1-3763-9F64-C459741F56FA</Project>
+    </ProjectReference>
+    <ProjectReference Include="G:/Sources/libs/opencv/build/modules/videoio/opencv_videoio.vcxproj">
+      <Project>689A4C46-DD1D-386B-8CE9-881B7EDB62EB</Project>
+    </ProjectReference>
+    <ProjectReference Include="G:/Sources/libs/opencv/build/modules/videostab/opencv_videostab.vcxproj">
+      <Project>047D40B8-6D79-340A-8795-05DF7CF15DB0</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="obj_track.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

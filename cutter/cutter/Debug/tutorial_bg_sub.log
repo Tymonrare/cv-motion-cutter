@@ -1,0 +1,29 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(367,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  obj_track.cpp
+obj_track.cpp(50): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+obj_track.cpp(71): warning C4129: p: неизвестная escape-последовательность
+obj_track.cpp(71): warning C4129: c: неизвестная escape-последовательность
+obj_track.cpp(71): warning C4129: s: неизвестная escape-последовательность
+obj_track.cpp(81): warning C4100: argv: неиспользованный формальный параметр
+obj_track.cpp(81): warning C4100: argc: неиспользованный формальный параметр
+obj_track.cpp(106): warning C4459: объявление "frame" скрывает глобальное объявление
+  obj_track.cpp(67): note:  см. объявление "frame"
+obj_track.cpp(269): warning C4474: "sprintf" : для строки формата передано слишком много аргументов
+  obj_track.cpp(269): note: заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
+obj_track.cpp(270): warning C4474: "sprintf" : для строки формата передано слишком много аргументов
+  obj_track.cpp(270): note: заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
+obj_track.cpp(271): warning C4474: "sprintf" : для строки формата передано слишком много аргументов
+  obj_track.cpp(271): note: заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
+obj_track.cpp(272): warning C4474: "sprintf" : для строки формата передано слишком много аргументов
+  obj_track.cpp(272): note: заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
+obj_track.cpp(273): warning C4474: "sprintf" : для строки формата передано слишком много аргументов
+  obj_track.cpp(273): note: заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
+obj_track.cpp(274): warning C4474: "sprintf" : для строки формата передано слишком много аргументов
+  obj_track.cpp(274): note: заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
+obj_track.cpp(289): warning C4459: объявление "frame" скрывает глобальное объявление
+  obj_track.cpp(67): note:  см. объявление "frame"
+obj_track.cpp(360): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+obj_track.cpp(361): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  tutorial_bg_sub.vcxproj -> G:\projs\cvcutter\cutter\cutter\..\..\cpp-tutorial-bg_sub.exe
+  tutorial_bg_sub.vcxproj -> G:/Sources/libs/opencv/build/bin/Debug/cpp-tutorial-bg_sub.pdb (Full PDB)
