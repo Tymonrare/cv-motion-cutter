@@ -1,3 +1,0 @@
-/home/x/workspace/projs/cvcutter/build/CMakeFiles/rebuild_cache.dir
-/home/x/workspace/projs/cvcutter/build/CMakeFiles/edit_cache.dir
-/home/x/workspace/projs/cvcutter/build/CMakeFiles/cameraCutter.dir
